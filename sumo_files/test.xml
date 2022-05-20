@@ -1,0 +1,43 @@
+<additional>
+    
+    <tlLogic id="2" offset="12" programID="green_wave" type="static">
+        <phase duration="25" state="rrrrrGGrrrrrrgGGGr" />
+        <phase duration="3" state="rrrrryyrrrrrrgyyyr" />
+        <phase duration="15" state="grrrgrrGgrrrrgrrrG" />
+        <phase duration="3" state="grrrgrrygrrrrgrrry" />
+        <phase duration="20" state="gGGrgrrrgGGGrgrrrr" />
+        <phase duration="3" state="gyyrgrrrgyyyrgrrrr" />
+        <phase duration="18" state="grrGgrrrgrrrGgrrrr" />
+        <phase duration="3" state="yrryyrrryrrrygrrrr" />
+    </tlLogic>
+    <tlLogic id="3" offset="12" programID="green_wave" type="static">
+        <phase duration="25" state="rrrrrGGrrrrrrgGGGr" />
+        <phase duration="3" state="rrrrryyrrrrrrgyyyr" />
+        <phase duration="15" state="grrrgrrGgrrrrgrrrG" />
+        <phase duration="3" state="grrrgrrygrrrrgrrry" />
+        <phase duration="20" state="gGGrgrrrgGGGrgrrrr" />
+        <phase duration="3" state="gyyrgrrrgyyyrgrrrr" />
+        <phase duration="18" state="grrGgrrrgrrrGgrrrr" />
+        <phase duration="3" state="yrryyrrryrrrygrrrr" />
+    </tlLogic>
+    <tlLogic id="4" offset="12" programID="green_wave" type="static">
+        <phase duration="25" state="rrrrrGGrrrrrrgGGGr" />
+        <phase duration="3" state="rrrrryyrrrrrrgyyyr" />
+        <phase duration="15" state="grrrgrrGgrrrrgrrrG" />
+        <phase duration="3" state="grrrgrrygrrrrgrrry" />
+        <phase duration="20" state="gGGrgrrrgGGGrgrrrr" />
+        <phase duration="3" state="gyyrgrrrgyyyrgrrrr" />
+        <phase duration="18" state="grrGgrrrgrrrGgrrrr" />
+        <phase duration="3" state="yrryyrrryrrrygrrrr" />
+    </tlLogic>
+    <tlLogic id="5" offset="12" programID="green_wave" type="static">
+        <phase duration="25" state="rrrrrGGrrrrrrgGGGr" />
+        <phase duration="3" state="rrrrryyrrrrrrgyyyr" />
+        <phase duration="15" state="grrrgrrGgrrrrgrrrG" />
+        <phase duration="3" state="grrrgrrygrrrrgrrry" />
+        <phase duration="20" state="gGGrgrrrgGGGrgrrrr" />
+        <phase duration="3" state="gyyrgrrrgyyyrgrrrr" />
+        <phase duration="18" state="grrGgrrrgrrrGgrrrr" />
+        <phase duration="3" state="yrryyrrryrrrygrrrr" />
+    </tlLogic>
+</additional>

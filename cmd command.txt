@@ -1,0 +1,6 @@
+jtrrouter --n=YunLiangHeArtery_GuanghuaToQididajie.net.xml --r=YunLiangHeArtery_GuanghuaToQididajie.flow.xml --t=YunLiangHeArtery_GuanghuaToQididajie.turnsdef.xml --o=YunLiangHeArtery_GuanghuaToQididajie.rou.xml --s=600
+netconvert --n=YunLiangHeArtery_GuanghuaToQididajie.nod.xml --e=YunLiangHeArtery_GuanghuaToQididajie.edg.xml --x=YunLiangHeArtery_GuanghuaToQididajie.con.xml --o=YunLiangHeArtery_GuanghuaToQididajie.net.xml
+
+
+jtrrouter --n=YunLiangHeArtery_GuanghuaToQididajie.net.xml --r=HighDemand.flow.xml --t=YunLiangHeArtery_GuanghuaToQididajie.turnsdef.xml --o=HighDemand.rou.xml --s=600
+jtrrouter --n=YunLiangHeArtery_GuanghuaToQididajie.net.xml --r=LowDemand.flow.xml --t=YunLiangHeArtery_GuanghuaToQididajie.turnsdef.xml --o=LowDemand.rou.xml --s=600

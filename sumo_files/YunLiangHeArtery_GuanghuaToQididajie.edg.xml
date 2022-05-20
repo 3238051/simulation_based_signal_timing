@@ -1,0 +1,94 @@
+<edges>
+
+    <!-- 2 yunlianghe-guanghua crossroad -->
+    <!-- north branch -->
+    <edge id="2_n_entrance_0" from="2_n_upstream" to="2_n_0" priority="1" numLanes="4" speed="16.67" shape="1776.8,200 1776.8,150"/>
+    <edge id="2_n_entrance_1" from="2_n_0" to="2" priority="1" numLanes="4" speed="16.67" shape="1776.8,150 1776.8,0"/>
+    <edge id="2_n_exit_0" from="2" to="2_n_0" priority="1" numLanes="4" speed="16.67" />
+    <edge id="2_n_exit_1" from="2_n_0" to="2_n_downstream" priority="1" numLanes="4" speed="16.67" />
+    <!-- south branch -->
+    <edge id="2_s_entrance_0" from="2_s_upstream" to="2_s_0" priority="1" numLanes="3" speed="16.67" />
+    <edge id="2_s_entrance_1" from="2_s_0" to="2_s_2" priority="1" numLanes="4" speed="16.67" />
+    <edge id="2_s_entrance_2" from="2_s_2" to="2" priority="1" numLanes="4" speed="16.67" />
+    <edge id="2_s_exit_0" from="2" to="2_s_2" priority="1" numLanes="4" speed="16.67" shape="1776.8,0 1776.8,-60"/>
+    <edge id="2_s_exit_1" from="2_s_2" to="2_s_1" priority="1" numLanes="4" speed="16.67" shape="1776.8,-60 1776.8,-140"/>
+    <edge id="2_s_exit_2" from="2_s_1" to="2_s_downstream" priority="1" numLanes="3" speed="16.67" shape="1776.8,-140 1776.8,-200" />
+    <!-- west branch -->
+    <edge id="2_w_entrance_0" from="2_w_upstream" to="2_w_1" priority="1" numLanes="2" speed="16.67" />
+    <edge id="2_w_entrance_1" from="2_w_1" to="2" priority="1" numLanes="4" speed="16.67" />
+    <edge id="2_w_exit_0" from="2" to="2_w_0" priority="1" numLanes="3" speed="16.67" />
+    <edge id="2_w_exit_1" from="2_w_0" to="2_w_downstream" priority="1" numLanes="2" speed="16.67" />
+    <!-- east branch -->
+    <edge id="2_e_entrance_0" from="2_e_upstream" to="2_e_0" priority="1" numLanes="3" speed="16.67" />
+    <edge id="2_e_entrance_1" from="2_e_0" to="2" priority="1" numLanes="4" speed="16.67" />
+    <edge id="2_e_exit" from="2" to="2_e_downstream" priority="1" numLanes="3" speed="16.67" />
+
+
+    <!-- 3 yunlianghe-cangbomennan crossroad -->
+    <!-- north branch -->
+    <edge id="3_n_entrance_0" from="3_n_upstream" to="3_n_0" priority="1" numLanes="3" speed="16.67" shape="2226.8,200 2226.8,130"/>
+    <edge id="3_n_entrance_1" from="3_n_0" to="3" priority="1" numLanes="4" speed="16.67" />
+    <edge id="3_n_exit_0" from="3" to="3_n_0" priority="1" numLanes="2" speed="16.67" />
+    <edge id="3_n_exit_1" from="3_n_0" to="3_n_downstream" priority="1" numLanes="3" speed="16.67" shape="2226.8,130 2226.8,200" />
+    <!-- south branch -->
+    <edge id="3_s_entrance_0" from="3_s_upstream" to="3_s_0" priority="1" numLanes="3" speed="16.67"/>
+    <edge id="3_s_entrance_1" from="3_s_0" to="3" priority="1" numLanes="4" speed="16.67" />
+    <edge id="3_s_exit" from="3" to="3_s_downstream" priority="1" numLanes="2" speed="16.67"/>
+    <!-- west branch -->
+    <edge id="3_w_entrance_0" from="3_w_upstream" to="3_w_1" priority="1" numLanes="3" speed="16.67" />
+    <edge id="3_w_entrance_1" from="3_w_1" to="3" priority="1" numLanes="4" speed="16.67" shape="2130,3.2 2230,3.2"/>
+    <edge id="3_w_exit_0" from="3" to="3_w_0" priority="1" numLanes="2" speed="16.67" shape="2230,3.2 2130,3.2" />
+    <edge id="3_w_exit_1" from="3_w_0" to="3_w_downstream" priority="1" numLanes="3" speed="16.67" />
+    <!-- east branch -->
+    <edge id="3_e_entrance_0" from="3_e_upstream" to="3_e_0" priority="1" numLanes="2" speed="16.67"/>
+    <edge id="3_e_entrance_1" from="3_e_0" to="3" priority="1" numLanes="4" speed="16.67" />
+    <edge id="3_e_exit" from="3" to="3_e_downstream" priority="1" numLanes="2" speed="16.67"/>
+
+    <!-- 4 yunlianghe-cangbomenbei crossroad -->
+    <!-- north branch -->
+    <edge id="4_n_entrance_0" from="4_n_upstream" to="4_n_0" priority="1" numLanes="3" speed="16.67" shape="2746.8,200 2746.8,120"/>
+    <edge id="4_n_entrance_1" from="4_n_0" to="4" priority="1" numLanes="4" speed="16.67" />
+    <edge id="4_n_exit_0" from="4" to="4_n_0" priority="1" numLanes="2" speed="16.67" />
+    <edge id="4_n_exit_1" from="4_n_0" to="4_n_downstream" priority="1" numLanes="3" speed="16.67" shape="2746.8,120 2746.8,200" />
+    <!-- south branch -->
+    <edge id="4_s_entrance_0" from="4_s_upstream" to="4_s_0" priority="1" numLanes="3" speed="16.67"/>
+    <edge id="4_s_entrance_1" from="4_s_0" to="4" priority="1" numLanes="4" speed="16.67" />
+    <edge id="4_s_exit" from="4" to="4_s_downstream" priority="1" numLanes="2" speed="16.67"/>
+    <!-- west branch -->
+    <edge id="4_w_entrance_0" from="4_w_upstream" to="4_w_0" priority="1" numLanes="2" speed="16.67" />
+    <edge id="4_w_entrance_1" from="4_w_0" to="4" priority="1" numLanes="4" speed="16.67"/>
+    <edge id="4_w_exit" from="4" to="4_w_downstream" priority="1" numLanes="2" speed="16.67"/>
+    <!-- east branch -->
+    <edge id="4_e_entrance_0" from="4_e_upstream" to="4_e_1" priority="1" numLanes="3" speed="16.67" />
+    <edge id="4_e_entrance_1" from="4_e_1" to="4" priority="1" numLanes="4" speed="16.67" shape="2830,-3.2 2750,-3.2"/>
+    <edge id="4_e_exit_0" from="4" to="4_e_0" priority="1" numLanes="2" speed="16.67" shape="2750,-3.2 2830,-3.2"/>
+    <edge id="4_e_exit_1" from="4_e_0" to="4_e_downstream" priority="1" numLanes="3" speed="16.67" />
+
+    <!-- 5 yunlianghe-qididajie crossroad -->
+    <!-- north branch -->
+    <edge id="5_n_entrance" from="5_n_upstream" to="5" priority="1" numLanes="4" speed="16.67"/>
+    <edge id="5_n_exit" from="5" to="5_n_downstream" priority="1" numLanes="4" speed="16.67" />
+    <!-- south branch -->
+    <edge id="5_s_entrance" from="5_s_upstream" to="5" priority="1" numLanes="4" speed="16.67"/>
+    <edge id="5_s_exit" from="5" to="5_s_downstream" priority="1" numLanes="4" speed="16.67" />
+    <!-- west branch -->
+    <edge id="5_w_entrance_0" from="5_w_upstream" to="5_w_0" priority="1" numLanes="3" speed="16.67" />
+    <edge id="5_w_entrance_1" from="5_w_0" to="5" priority="1" numLanes="4" speed="16.67"/>
+    <edge id="5_w_exit" from="5" to="5_w_downstream" priority="1" numLanes="3" speed="16.67"/>
+    <!-- east branch -->
+    <edge id="5_e_entrance_0" from="5_e_upstream" to="5_e_0" priority="1" numLanes="2" speed="16.67" />
+    <edge id="5_e_entrance_1" from="5_e_0" to="5" priority="1" numLanes="4" speed="16.67"/>
+    <edge id="5_e_exit" from="5" to="5_e_downstream" priority="1" numLanes="2" speed="16.67"/>
+
+
+
+    <!-- arteries -->
+    <edge id="2to3" from="2_e_downstream" to="3_w_upstream" priority="1" numLanes="3" speed="16.67" />
+    <edge id="3to2" from="3_w_downstream" to="2_e_upstream" priority="1" numLanes="3" speed="16.67" />
+
+    <edge id="3to4" from="3_e_downstream" to="4_w_upstream" priority="1" numLanes="2" speed="16.67" />
+    <edge id="4to3" from="4_w_downstream" to="3_e_upstream" priority="1" numLanes="2" speed="16.67" />
+
+    <edge id="4to5" from="4_e_downstream" to="5_w_upstream" priority="1" numLanes="3" speed="16.67" />
+    <edge id="5to4" from="5_w_downstream" to="4_e_upstream" priority="1" numLanes="3" speed="16.67" />
+</edges>

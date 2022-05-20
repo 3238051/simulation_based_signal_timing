@@ -1,0 +1,155 @@
+<turns xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/turns_file.xsd">
+    <interval begin="0" end="600">
+        <fromEdge id="2_e_entrance_0">
+            <toEdge id="2_e_entrance_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="2_e_entrance_1">
+            <toEdge id="2_n_exit_0" probability="25"/>
+            <toEdge id="2_s_exit_0" probability="25"/>
+            <toEdge id="2_w_exit_0" probability="50"/>
+        </fromEdge>
+        <fromEdge id="2_n_entrance_0">
+            <toEdge id="2_n_entrance_1" probability="87.5"/>
+            <toEdge id="2_n_exit_1" probability="12.5"/>
+        </fromEdge>
+        <fromEdge id="2_n_entrance_1">
+            <toEdge id="2_e_exit" probability="25"/>
+            <toEdge id="2_s_exit_0" probability="50"/>
+            <toEdge id="2_w_exit_0" probability="25"/>
+        </fromEdge>
+        <fromEdge id="2_n_exit_0">
+            <toEdge id="2_n_exit_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="2_s_entrance_0">
+            <toEdge id="2_s_entrance_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="2_s_entrance_1">
+            <toEdge id="2_s_entrance_2" probability="87.5"/>
+            <toEdge id="2_s_exit_1" probability="12.5"/>
+        </fromEdge>
+        <fromEdge id="2_s_entrance_2">
+            <toEdge id="2_e_exit" probability="12.5"/>
+            <toEdge id="2_n_exit_0" probability="62.5"/>
+            <toEdge id="2_w_exit_0" probability="25"/>
+        </fromEdge>
+        <fromEdge id="2_s_exit_0">
+            <toEdge id="2_s_exit_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="2_s_exit_1">
+            <toEdge id="2_s_exit_2" probability="100"/>
+        </fromEdge>
+        <fromEdge id="2_w_entrance_0">
+            <toEdge id="2_w_entrance_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="2_w_entrance_1">
+            <toEdge id="2_e_exit" probability="62.5"/>
+            <toEdge id="2_n_exit_0" probability="25"/>
+            <toEdge id="2_s_exit_0" probability="12.5"/>
+        </fromEdge>
+        <fromEdge id="2_w_exit_0">
+            <toEdge id="2_w_exit_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="3_e_entrance_0">
+            <toEdge id="3_e_entrance_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="3_e_entrance_1">
+            <toEdge id="3_n_exit_0" probability="25"/>
+            <toEdge id="3_s_exit" probability="25"/>
+            <toEdge id="3_w_exit_0" probability="50"/>
+        </fromEdge>
+        <fromEdge id="3_n_entrance_0">
+            <toEdge id="3_n_entrance_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="3_n_entrance_1">
+            <toEdge id="3_e_exit" probability="25"/>
+            <toEdge id="3_s_exit" probability="50"/>
+            <toEdge id="3_w_exit_0" probability="25"/>
+        </fromEdge>
+        <fromEdge id="3_n_exit_0">
+            <toEdge id="3_n_exit_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="3_s_entrance_0">
+            <toEdge id="3_s_entrance_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="3_s_entrance_1">
+            <toEdge id="3_e_exit" probability="12.5"/>
+            <toEdge id="3_n_exit_0" probability="62.5"/>
+            <toEdge id="3_w_exit_0" probability="25"/>
+        </fromEdge>
+        <fromEdge id="3_w_entrance_0">
+            <toEdge id="3_w_entrance_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="3_w_entrance_1">
+            <toEdge id="3_e_exit" probability="62.5"/>
+            <toEdge id="3_n_exit_0" probability="25"/>
+            <toEdge id="3_s_exit" probability="12.5"/>
+        </fromEdge>
+        <fromEdge id="3_w_exit_0">
+            <toEdge id="3_w_exit_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="4_e_entrance_0">
+            <toEdge id="4_e_entrance_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="4_e_entrance_1">
+            <toEdge id="4_n_exit_0" probability="25"/>
+            <toEdge id="4_s_exit" probability="25"/>
+            <toEdge id="4_w_exit" probability="50"/>
+        </fromEdge>
+        <fromEdge id="4_e_exit_0">
+            <toEdge id="4_e_exit_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="4_n_entrance_0">
+            <toEdge id="4_n_entrance_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="4_n_entrance_1">
+            <toEdge id="4_e_exit_0" probability="25"/>
+            <toEdge id="4_s_exit" probability="50"/>
+            <toEdge id="4_w_exit" probability="25"/>
+        </fromEdge>
+        <fromEdge id="4_n_exit_0">
+            <toEdge id="4_n_exit_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="4_s_entrance_0">
+            <toEdge id="4_s_entrance_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="4_s_entrance_1">
+            <toEdge id="4_e_exit_0" probability="12.5"/>
+            <toEdge id="4_n_exit_0" probability="62.5"/>
+            <toEdge id="4_w_exit" probability="25"/>
+        </fromEdge>
+        <fromEdge id="4_w_entrance_0">
+            <toEdge id="4_w_entrance_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="4_w_entrance_1">
+            <toEdge id="4_e_exit_0" probability="62.5"/>
+            <toEdge id="4_n_exit_0" probability="25"/>
+            <toEdge id="4_s_exit" probability="12.5"/>
+        </fromEdge>
+        <fromEdge id="5_e_entrance_0">
+            <toEdge id="5_e_entrance_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="5_e_entrance_1">
+            <toEdge id="5_n_exit" probability="25"/>
+            <toEdge id="5_s_exit" probability="25"/>
+            <toEdge id="5_w_exit" probability="50"/>
+        </fromEdge>
+        <fromEdge id="5_n_entrance">
+            <toEdge id="5_e_exit" probability="25"/>
+            <toEdge id="5_s_exit" probability="50"/>
+            <toEdge id="5_w_exit" probability="25"/>
+        </fromEdge>
+        <fromEdge id="5_s_entrance">
+            <toEdge id="5_e_exit" probability="12.5"/>
+            <toEdge id="5_n_exit" probability="62.5"/>
+            <toEdge id="5_w_exit" probability="25"/>
+        </fromEdge>
+        <fromEdge id="5_w_entrance_0">
+            <toEdge id="5_w_entrance_1" probability="100"/>
+        </fromEdge>
+        <fromEdge id="5_w_entrance_1">
+            <toEdge id="5_e_exit" probability="62.5"/>
+            <toEdge id="5_n_exit" probability="25"/>
+            <toEdge id="5_s_exit" probability="12.5"/>
+        </fromEdge>
+    </interval>
+</turns>

@@ -1,0 +1,23 @@
+<routes>
+    <!-- define vehicles type for different direction: north-blue; east-yellow; south-cyan; west-fuchsia -->
+    <vType id="from_north" color="0,0,255" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="55.55"/>
+    <vType id="from_east" color="255,255,0" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="55.55" />
+    <vType id="from_south" color="0,255,255" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="55.55" />
+    <vType id="from_west" color="255,0,255" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="55.55" />
+
+    <!-- flow from different direction -->
+
+    <flow id="2_from_west" type="from_west" from="2_w_entrance_0"  vehsPerHour="500" begain="0" end="600" departLane="best" departSpeed="desired"/>
+    <flow id="2_from_north" type="from_north" from="2_n_entrance_0"  vehsPerHour="250" begain="0" end="600" departLane="best" departSpeed="desired"/>
+    <flow id="2_from_south" type="from_south" from="2_s_entrance_0"  vehsPerHour="250" begain="0" end="600" departLane="best" departSpeed="desired"/>
+
+    <flow id="3_from_north" type="from_north" from="3_n_entrance_0"  vehsPerHour="250" begain="0" end="600" departLane="best" departSpeed="desired"/>
+    <flow id="3_from_south" type="from_south" from="3_s_entrance_0"  vehsPerHour="250" begain="0" end="600" departLane="best" departSpeed="desired"/>
+
+    <flow id="4_from_north" type="from_north" from="4_n_entrance_0"  vehsPerHour="250" begain="0" end="600" departLane="best" departSpeed="desired"/>
+    <flow id="4_from_south" type="from_south" from="4_s_entrance_0"  vehsPerHour="250" begain="0" end="600" departLane="best" departSpeed="desired"/>
+
+    <flow id="5_from_north" type="from_north" from="5_n_entrance"  vehsPerHour="250" begain="0" end="600" departLane="best" departSpeed="desired"/>
+    <flow id="5_from_south" type="from_south" from="5_s_entrance"  vehsPerHour="250" begain="0" end="600" departLane="best" departSpeed="desired"/>
+    <flow id="5_from_east" type="from_east" from="5_e_entrance_0"  vehsPerHour="500" begain="0" end="600" departLane="best" departSpeed="desired"/>  
+</routes>

@@ -1,0 +1,145 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e3Detector id="e3_2_2_e_entrance_1" freq="60" file="e3output.xml">
+        <detEntry lane="3_w_exit_1_0" pos="60.20"/>
+        <detEntry lane="3_w_exit_1_1" pos="60.20"/>
+        <detEntry lane="3_w_exit_1_2" pos="60.20"/>
+        <detExit lane="2_e_entrance_1_0" pos="-.1"/>
+        <detExit lane="2_e_entrance_1_1" pos="-.1"/>
+        <detExit lane="2_e_entrance_1_2" pos="-.1"/>
+        <detExit lane="2_e_entrance_1_3" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="e3_2_2_n_entrance_1" freq="60" file="e3output.xml">
+        <detEntry lane="2_n_entrance_0_0" pos="0.10"/>
+        <detEntry lane="2_n_entrance_0_1" pos="0.10"/>
+        <detEntry lane="2_n_entrance_0_2" pos="0.10"/>
+        <detEntry lane="2_n_entrance_0_3" pos="0.10"/>
+        <detExit lane="2_n_entrance_1_0" pos="-.1"/>
+        <detExit lane="2_n_entrance_1_1" pos="-.1"/>
+        <detExit lane="2_n_entrance_1_2" pos="-.1"/>
+        <detExit lane="2_n_entrance_1_3" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="e3_2_2_s_entrance_2" freq="60" file="e3output.xml">
+        <detEntry lane="2_s_entrance_0_0" pos="14.20"/>
+        <detEntry lane="2_s_entrance_0_1" pos="14.20"/>
+        <detEntry lane="2_s_entrance_0_2" pos="14.20"/>
+        <detExit lane="2_s_entrance_2_0" pos="-.1"/>
+        <detExit lane="2_s_entrance_2_1" pos="-.1"/>
+        <detExit lane="2_s_entrance_2_2" pos="-.1"/>
+        <detExit lane="2_s_entrance_2_3" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="e3_2_2_w_entrance_1" freq="60" file="e3output.xml">
+        <detEntry lane="2_w_entrance_0_0" pos="0.10"/>
+        <detEntry lane="2_w_entrance_0_1" pos="0.10"/>
+        <detExit lane="2_w_entrance_1_0" pos="-.1"/>
+        <detExit lane="2_w_entrance_1_1" pos="-.1"/>
+        <detExit lane="2_w_entrance_1_2" pos="-.1"/>
+        <detExit lane="2_w_entrance_1_3" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="e3_3_3_e_entrance_1" freq="60" file="e3output.xml">
+        <detEntry lane="4to3_0" pos="34.20"/>
+        <detEntry lane="4to3_1" pos="34.20"/>
+        <detExit lane="3_e_entrance_1_0" pos="-.1"/>
+        <detExit lane="3_e_entrance_1_1" pos="-.1"/>
+        <detExit lane="3_e_entrance_1_2" pos="-.1"/>
+        <detExit lane="3_e_entrance_1_3" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="e3_3_3_n_entrance_1" freq="60" file="e3output.xml">
+        <detEntry lane="3_n_entrance_0_0" pos="0.10"/>
+        <detEntry lane="3_n_entrance_0_1" pos="0.10"/>
+        <detEntry lane="3_n_entrance_0_2" pos="0.10"/>
+        <detExit lane="3_n_entrance_1_0" pos="-.1"/>
+        <detExit lane="3_n_entrance_1_1" pos="-.1"/>
+        <detExit lane="3_n_entrance_1_2" pos="-.1"/>
+        <detExit lane="3_n_entrance_1_3" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="e3_3_3_s_entrance_1" freq="60" file="e3output.xml">
+        <detEntry lane="3_s_entrance_0_0" pos="0.10"/>
+        <detEntry lane="3_s_entrance_0_1" pos="0.10"/>
+        <detEntry lane="3_s_entrance_0_2" pos="0.10"/>
+        <detExit lane="3_s_entrance_1_0" pos="-.1"/>
+        <detExit lane="3_s_entrance_1_1" pos="-.1"/>
+        <detExit lane="3_s_entrance_1_2" pos="-.1"/>
+        <detExit lane="3_s_entrance_1_3" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="e3_3_3_w_entrance_1" freq="60" file="e3output.xml">
+        <detEntry lane="2_e_exit_0" pos="136.40"/>
+        <detEntry lane="2_e_exit_1" pos="136.40"/>
+        <detEntry lane="2_e_exit_2" pos="136.40"/>
+        <detExit lane="3_w_entrance_1_0" pos="-.1"/>
+        <detExit lane="3_w_entrance_1_1" pos="-.1"/>
+        <detExit lane="3_w_entrance_1_2" pos="-.1"/>
+        <detExit lane="3_w_entrance_1_3" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="e3_4_4_e_entrance_1" freq="60" file="e3output.xml">
+        <detEntry lane="5_w_exit_0" pos="166.40"/>
+        <detEntry lane="5_w_exit_1" pos="166.40"/>
+        <detEntry lane="5_w_exit_2" pos="166.40"/>
+        <detExit lane="4_e_entrance_1_0" pos="-.1"/>
+        <detExit lane="4_e_entrance_1_1" pos="-.1"/>
+        <detExit lane="4_e_entrance_1_2" pos="-.1"/>
+        <detExit lane="4_e_entrance_1_3" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="e3_4_4_n_entrance_1" freq="60" file="e3output.xml">
+        <detEntry lane="4_n_entrance_0_0" pos="0.10"/>
+        <detEntry lane="4_n_entrance_0_1" pos="0.10"/>
+        <detEntry lane="4_n_entrance_0_2" pos="0.10"/>
+        <detExit lane="4_n_entrance_1_0" pos="-.1"/>
+        <detExit lane="4_n_entrance_1_1" pos="-.1"/>
+        <detExit lane="4_n_entrance_1_2" pos="-.1"/>
+        <detExit lane="4_n_entrance_1_3" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="e3_4_4_s_entrance_1" freq="60" file="e3output.xml">
+        <detEntry lane="4_s_entrance_0_0" pos="0.10"/>
+        <detEntry lane="4_s_entrance_0_1" pos="0.10"/>
+        <detEntry lane="4_s_entrance_0_2" pos="0.10"/>
+        <detExit lane="4_s_entrance_1_0" pos="-.1"/>
+        <detExit lane="4_s_entrance_1_1" pos="-.1"/>
+        <detExit lane="4_s_entrance_1_2" pos="-.1"/>
+        <detExit lane="4_s_entrance_1_3" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="e3_4_4_w_entrance_1" freq="60" file="e3output.xml">
+        <detEntry lane="3to4_0" pos="34.20"/>
+        <detEntry lane="3to4_1" pos="34.20"/>
+        <detExit lane="4_w_entrance_1_0" pos="-.1"/>
+        <detExit lane="4_w_entrance_1_1" pos="-.1"/>
+        <detExit lane="4_w_entrance_1_2" pos="-.1"/>
+        <detExit lane="4_w_entrance_1_3" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="e3_5_5_e_entrance_1" freq="60" file="e3output.xml">
+        <detEntry lane="5_e_entrance_0_0" pos="0.10"/>
+        <detEntry lane="5_e_entrance_0_1" pos="0.10"/>
+        <detExit lane="5_e_entrance_1_0" pos="-.1"/>
+        <detExit lane="5_e_entrance_1_1" pos="-.1"/>
+        <detExit lane="5_e_entrance_1_2" pos="-.1"/>
+        <detExit lane="5_e_entrance_1_3" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="e3_5_5_n_entrance" freq="60" file="e3output.xml">
+        <detEntry lane="5_n_entrance_0" pos="0.10"/>
+        <detEntry lane="5_n_entrance_1" pos="0.10"/>
+        <detEntry lane="5_n_entrance_2" pos="0.10"/>
+        <detEntry lane="5_n_entrance_3" pos="0.10"/>
+        <detExit lane="5_n_entrance_0" pos="-.1"/>
+        <detExit lane="5_n_entrance_1" pos="-.1"/>
+        <detExit lane="5_n_entrance_2" pos="-.1"/>
+        <detExit lane="5_n_entrance_3" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="e3_5_5_s_entrance" freq="60" file="e3output.xml">
+        <detEntry lane="5_s_entrance_0" pos="0.10"/>
+        <detEntry lane="5_s_entrance_1" pos="0.10"/>
+        <detEntry lane="5_s_entrance_2" pos="0.10"/>
+        <detEntry lane="5_s_entrance_3" pos="0.10"/>
+        <detExit lane="5_s_entrance_0" pos="-.1"/>
+        <detExit lane="5_s_entrance_1" pos="-.1"/>
+        <detExit lane="5_s_entrance_2" pos="-.1"/>
+        <detExit lane="5_s_entrance_3" pos="-.1"/>
+    </e3Detector>
+    <e3Detector id="e3_5_5_w_entrance_1" freq="60" file="e3output.xml">
+        <detEntry lane="4_e_exit_1_0" pos="110.20"/>
+        <detEntry lane="4_e_exit_1_1" pos="110.20"/>
+        <detEntry lane="4_e_exit_1_2" pos="110.20"/>
+        <detExit lane="5_w_entrance_1_0" pos="-.1"/>
+        <detExit lane="5_w_entrance_1_1" pos="-.1"/>
+        <detExit lane="5_w_entrance_1_2" pos="-.1"/>
+        <detExit lane="5_w_entrance_1_3" pos="-.1"/>
+    </e3Detector>
+</additional>

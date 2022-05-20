@@ -1,0 +1,211 @@
+<connections>
+    <!-- yunlianghe-guanghua crossroad -->
+    <!-- north branch -->
+    <connection from="2_n_entrance_0" to="2_n_entrance_1" fromLane="3" toLane="3"/>
+    <connection from="2_n_entrance_0" to="2_n_entrance_1" fromLane="2" toLane="2"/>
+    <connection from="2_n_entrance_0" to="2_n_entrance_1" fromLane="1" toLane="1"/>
+    <connection from="2_n_entrance_0" to="2_n_entrance_1" fromLane="0" toLane="0"/>
+    <connection from="2_n_entrance_0" to="2_n_exit_1" fromLane="3" toLane="3"/> <!--u turn-->
+
+    <connection from="2_n_exit_0" to="2_n_exit_1" fromLane="3" toLane="3"/>
+    <connection from="2_n_exit_0" to="2_n_exit_1" fromLane="2" toLane="2"/>
+    <connection from="2_n_exit_0" to="2_n_exit_1" fromLane="1" toLane="1"/>
+    <connection from="2_n_exit_0" to="2_n_exit_1" fromLane="0" toLane="0"/>
+    <!-- south branch -->
+    <connection from="2_s_entrance_0" to="2_s_entrance_1" fromLane="2" toLane="3"/>
+    <connection from="2_s_entrance_0" to="2_s_entrance_1" fromLane="1" toLane="2"/>
+    <connection from="2_s_entrance_0" to="2_s_entrance_1" fromLane="0" toLane="1"/>
+    <connection from="2_s_entrance_0" to="2_s_entrance_1" fromLane="0" toLane="0"/>
+
+    <connection from="2_s_entrance_1" to="2_s_entrance_2" fromLane="3" toLane="3"/>
+    <connection from="2_s_entrance_1" to="2_s_entrance_2" fromLane="2" toLane="2"/>
+    <connection from="2_s_entrance_1" to="2_s_entrance_2" fromLane="1" toLane="1"/>
+    <connection from="2_s_entrance_1" to="2_s_entrance_2" fromLane="0" toLane="0"/>
+    <connection from="2_s_entrance_1" to="2_s_exit_1" fromLane="3" toLane="3"/> <!--u turn-->
+
+    <connection from="2_s_exit_0" to="2_s_exit_1" fromLane="3" toLane="3"/>
+    <connection from="2_s_exit_0" to="2_s_exit_1" fromLane="2" toLane="2"/>
+    <connection from="2_s_exit_0" to="2_s_exit_1" fromLane="1" toLane="1"/>
+    <connection from="2_s_exit_0" to="2_s_exit_1" fromLane="0" toLane="0"/>
+
+    <connection from="2_s_exit_1" to="2_s_exit_2" fromLane="3" toLane="2"/>
+    <connection from="2_s_exit_1" to="2_s_exit_2" fromLane="2" toLane="1"/>
+    <connection from="2_s_exit_1" to="2_s_exit_2" fromLane="1" toLane="0"/>
+    <connection from="2_s_exit_1" to="2_s_exit_2" fromLane="0" toLane="0"/>
+    <!-- west branch -->
+    <connection from="2_w_entrance_0" to="2_w_entrance_1" fromLane="1" toLane="3"/>
+    <connection from="2_w_entrance_0" to="2_w_entrance_1" fromLane="1" toLane="2"/>
+    <connection from="2_w_entrance_0" to="2_w_entrance_1" fromLane="0" toLane="1"/>
+    <connection from="2_w_entrance_0" to="2_w_entrance_1" fromLane="0" toLane="0"/>
+
+    <connection from="2_w_exit_0" to="2_w_exit_1" fromLane="2" toLane="1"/>
+    <connection from="2_w_exit_0" to="2_w_exit_1" fromLane="1" toLane="0"/>
+    <connection from="2_w_exit_0" to="2_w_exit_1" fromLane="0" toLane="0"/>
+    <!-- east branch -->
+    <connection from="2_e_entrance_0" to="2_e_entrance_1" fromLane="2" toLane="3"/>
+    <connection from="2_e_entrance_0" to="2_e_entrance_1" fromLane="1" toLane="2"/>
+    <connection from="2_e_entrance_0" to="2_e_entrance_1" fromLane="0" toLane="1"/>
+    <connection from="2_e_entrance_0" to="2_e_entrance_1" fromLane="0" toLane="0"/>
+    <!-- internal -->
+    <connection from="2_n_entrance_1" to="2_e_exit" fromLane="3" toLane="2"/>
+    <connection from="2_n_entrance_1" to="2_s_exit_0" fromLane="2" toLane="2"/>
+    <connection from="2_n_entrance_1" to="2_s_exit_0" fromLane="1" toLane="1"/>
+    <connection from="2_n_entrance_1" to="2_w_exit_0" fromLane="0" toLane="0"/>
+
+    <connection from="2_e_entrance_1" to="2_s_exit_0" fromLane="3" toLane="3"/>
+    <connection from="2_e_entrance_1" to="2_w_exit_0" fromLane="2" toLane="2"/>
+    <connection from="2_e_entrance_1" to="2_w_exit_0" fromLane="1" toLane="1"/>
+    <connection from="2_e_entrance_1" to="2_n_exit_0" fromLane="0" toLane="0"/>
+
+    <connection from="2_s_entrance_2" to="2_w_exit_0" fromLane="3" toLane="2"/>
+    <connection from="2_s_entrance_2" to="2_n_exit_0" fromLane="2" toLane="3"/>
+    <connection from="2_s_entrance_2" to="2_n_exit_0" fromLane="1" toLane="2"/>
+    <connection from="2_s_entrance_2" to="2_n_exit_0" fromLane="0" toLane="1"/>
+    <connection from="2_s_entrance_2" to="2_e_exit" fromLane="0" toLane="0"/>
+
+    <connection from="2_w_entrance_1" to="2_n_exit_0" fromLane="3" toLane="3"/>
+    <connection from="2_w_entrance_1" to="2_e_exit" fromLane="2" toLane="2"/>
+    <connection from="2_w_entrance_1" to="2_e_exit" fromLane="1" toLane="1"/>
+    <connection from="2_w_entrance_1" to="2_e_exit" fromLane="0" toLane="0"/>
+    <connection from="2_w_entrance_1" to="2_s_exit_0" fromLane="0" toLane="0"/>
+
+    <!-- yunlianghe-cangbomennan crossroad -->
+    <!-- north branch -->
+    <connection from="3_n_entrance_0" to="3_n_entrance_1" fromLane="2" toLane="3"/>
+    <connection from="3_n_entrance_0" to="3_n_entrance_1" fromLane="2" toLane="2"/>
+    <connection from="3_n_entrance_0" to="3_n_entrance_1" fromLane="1" toLane="1"/>
+    <connection from="3_n_entrance_0" to="3_n_entrance_1" fromLane="0" toLane="0"/>
+
+    <connection from="3_n_exit_0" to="3_n_exit_1" fromLane="1" toLane="2"/>
+    <connection from="3_n_exit_0" to="3_n_exit_1" fromLane="1" toLane="1"/>
+    <connection from="3_n_exit_0" to="3_n_exit_1" fromLane="0" toLane="0"/>
+    <!-- south branch -->
+    <connection from="3_s_entrance_0" to="3_s_entrance_1" fromLane="2" toLane="3"/>
+    <connection from="3_s_entrance_0" to="3_s_entrance_1" fromLane="1" toLane="2"/>
+    <connection from="3_s_entrance_0" to="3_s_entrance_1" fromLane="0" toLane="1"/>
+    <connection from="3_s_entrance_0" to="3_s_entrance_1" fromLane="0" toLane="0"/>
+    <!-- west branch -->
+    <connection from="3_w_entrance_0" to="3_w_entrance_1" fromLane="2" toLane="3"/>
+    <connection from="3_w_entrance_0" to="3_w_entrance_1" fromLane="1" toLane="2"/>
+    <connection from="3_w_entrance_0" to="3_w_entrance_1" fromLane="1" toLane="1"/>
+    <connection from="3_w_entrance_0" to="3_w_entrance_1" fromLane="0" toLane="0"/>
+
+    <connection from="3_w_exit_0" to="3_w_exit_1" fromLane="1" toLane="2"/>
+    <connection from="3_w_exit_0" to="3_w_exit_1" fromLane="1" toLane="1"/>
+    <connection from="3_w_exit_0" to="3_w_exit_1" fromLane="0" toLane="0"/>
+    <!-- east branch -->
+    <connection from="3_e_entrance_0" to="3_e_entrance_1" fromLane="1" toLane="3"/>
+    <connection from="3_e_entrance_0" to="3_e_entrance_1" fromLane="1" toLane="2"/>
+    <connection from="3_e_entrance_0" to="3_e_entrance_1" fromLane="0" toLane="1"/>
+    <connection from="3_e_entrance_0" to="3_e_entrance_1" fromLane="0" toLane="0"/>
+    <!-- internal -->
+    <connection from="3_n_entrance_1" to="3_e_exit" fromLane="3" toLane="1"/>
+    <connection from="3_n_entrance_1" to="3_s_exit" fromLane="2" toLane="1"/>
+    <connection from="3_n_entrance_1" to="3_s_exit" fromLane="1" toLane="0"/>
+    <connection from="3_n_entrance_1" to="3_w_exit_0" fromLane="0" toLane="0"/>
+
+    <connection from="3_e_entrance_1" to="3_s_exit" fromLane="3" toLane="1"/>
+    <connection from="3_e_entrance_1" to="3_w_exit_0" fromLane="2" toLane="1"/>
+    <connection from="3_e_entrance_1" to="3_w_exit_0" fromLane="1" toLane="0"/>
+    <connection from="3_e_entrance_1" to="3_n_exit_0" fromLane="0" toLane="0"/>
+
+    <connection from="3_s_entrance_1" to="3_w_exit_0" fromLane="3" toLane="1"/>
+    <connection from="3_s_entrance_1" to="3_n_exit_0" fromLane="2" toLane="1"/>
+    <connection from="3_s_entrance_1" to="3_n_exit_0" fromLane="1" toLane="0"/> <!--此处车道不平衡-->
+    <connection from="3_s_entrance_1" to="3_n_exit_0" fromLane="0" toLane="0"/> <!--此处车道不平衡-->
+    <connection from="3_s_entrance_1" to="3_e_exit" fromLane="0" toLane="0"/>
+
+    <connection from="3_w_entrance_1" to="3_n_exit_0" fromLane="3" toLane="1"/>
+    <connection from="3_w_entrance_1" to="3_e_exit" fromLane="2" toLane="1"/>
+    <connection from="3_w_entrance_1" to="3_e_exit" fromLane="1" toLane="0"/>
+    <connection from="3_w_entrance_1" to="3_s_exit" fromLane="0" toLane="0"/>
+    <connection from="3_w_entrance_1" to="3_e_exit" fromLane="0" toLane="0"/> <!--此处车道不平衡-->
+
+    <!-- yunlianghe-cangbomenbei crossroad -->
+    <!-- north branch -->
+    <connection from="4_n_entrance_0" to="4_n_entrance_1" fromLane="2" toLane="3"/>
+    <connection from="4_n_entrance_0" to="4_n_entrance_1" fromLane="2" toLane="2"/>
+    <connection from="4_n_entrance_0" to="4_n_entrance_1" fromLane="1" toLane="1"/>
+    <connection from="4_n_entrance_0" to="4_n_entrance_1" fromLane="0" toLane="0"/>
+
+    <connection from="4_n_exit_0" to="4_n_exit_1" fromLane="1" toLane="2"/>
+    <connection from="4_n_exit_0" to="4_n_exit_1" fromLane="1" toLane="1"/>
+    <connection from="4_n_exit_0" to="4_n_exit_1" fromLane="0" toLane="0"/>
+    <!-- south branch -->
+    <connection from="4_s_entrance_0" to="4_s_entrance_1" fromLane="2" toLane="3"/>
+    <connection from="4_s_entrance_0" to="4_s_entrance_1" fromLane="1" toLane="2"/>
+    <connection from="4_s_entrance_0" to="4_s_entrance_1" fromLane="0" toLane="1"/>
+    <connection from="4_s_entrance_0" to="4_s_entrance_1" fromLane="0" toLane="0"/>
+    <!-- west branch -->
+    <connection from="4_w_entrance_0" to="4_w_entrance_1" fromLane="1" toLane="3"/>
+    <connection from="4_w_entrance_0" to="4_w_entrance_1" fromLane="1" toLane="2"/>
+    <connection from="4_w_entrance_0" to="4_w_entrance_1" fromLane="0" toLane="1"/>
+    <connection from="4_w_entrance_0" to="4_w_entrance_1" fromLane="0" toLane="0"/>
+    <!-- east branch -->
+    <connection from="4_e_entrance_0" to="4_e_entrance_1" fromLane="2" toLane="3"/>
+    <connection from="4_e_entrance_0" to="4_e_entrance_1" fromLane="2" toLane="2"/>
+    <connection from="4_e_entrance_0" to="4_e_entrance_1" fromLane="1" toLane="1"/>
+    <connection from="4_e_entrance_0" to="4_e_entrance_1" fromLane="0" toLane="0"/>
+
+    <connection from="4_e_exit_0" to="4_e_exit_1" fromLane="1" toLane="2"/>
+    <connection from="4_e_exit_0" to="4_e_exit_1" fromLane="1" toLane="1"/>
+    <connection from="4_e_exit_0" to="4_e_exit_1" fromLane="0" toLane="0"/>
+   <!-- internal -->
+    <connection from="4_n_entrance_1" to="4_e_exit_0" fromLane="3" toLane="1"/>
+    <connection from="4_n_entrance_1" to="4_s_exit" fromLane="2" toLane="1"/>
+    <connection from="4_n_entrance_1" to="4_s_exit" fromLane="1" toLane="0"/>
+    <connection from="4_n_entrance_1" to="4_w_exit" fromLane="0" toLane="0"/>
+
+    <connection from="4_e_entrance_1" to="4_s_exit" fromLane="3" toLane="1"/>
+    <connection from="4_e_entrance_1" to="4_w_exit" fromLane="2" toLane="1"/>
+    <connection from="4_e_entrance_1" to="4_w_exit" fromLane="1" toLane="0"/>
+    <connection from="4_e_entrance_1" to="4_n_exit_0" fromLane="0" toLane="0"/>
+
+    <connection from="4_s_entrance_1" to="4_w_exit" fromLane="3" toLane="1"/>
+    <connection from="4_s_entrance_1" to="4_n_exit_0" fromLane="2" toLane="1"/>
+    <connection from="4_s_entrance_1" to="4_n_exit_0" fromLane="1" toLane="0"/> <!--此处车道不平衡-->
+    <connection from="4_s_entrance_1" to="4_n_exit_0" fromLane="0" toLane="0"/> <!--此处车道不平衡-->
+    <connection from="4_s_entrance_1" to="4_e_exit_0" fromLane="0" toLane="0"/>
+
+    <connection from="4_w_entrance_1" to="4_n_exit_0" fromLane="3" toLane="1"/>
+    <connection from="4_w_entrance_1" to="4_e_exit_0" fromLane="2" toLane="1"/>
+    <connection from="4_w_entrance_1" to="4_e_exit_0" fromLane="1" toLane="0"/>
+    <connection from="4_w_entrance_1" to="4_s_exit" fromLane="0" toLane="0"/>
+    <connection from="4_w_entrance_1" to="4_e_exit_0" fromLane="0" toLane="0"/> <!--此处车道不平衡-->
+
+
+    <!-- yunlianghe-qididajie crossroad -->
+    <!-- west branch -->
+    <connection from="5_w_entrance_0" to="5_w_entrance_1" fromLane="2" toLane="3"/>
+    <connection from="5_w_entrance_0" to="5_w_entrance_1" fromLane="1" toLane="2"/>
+    <connection from="5_w_entrance_0" to="5_w_entrance_1" fromLane="0" toLane="1"/>
+    <connection from="5_w_entrance_0" to="5_w_entrance_1" fromLane="0" toLane="0"/>
+    <!-- west branch -->
+    <connection from="5_e_entrance_0" to="5_e_entrance_1" fromLane="1" toLane="3"/>
+    <connection from="5_e_entrance_0" to="5_e_entrance_1" fromLane="1" toLane="2"/>
+    <connection from="5_e_entrance_0" to="5_e_entrance_1" fromLane="0" toLane="1"/>
+    <connection from="5_e_entrance_0" to="5_e_entrance_1" fromLane="0" toLane="0"/>
+    <!-- internal -->
+    <connection from="5_n_entrance" to="5_e_exit" fromLane="3" toLane="1"/>
+    <connection from="5_n_entrance" to="5_s_exit" fromLane="2" toLane="2"/>
+    <connection from="5_n_entrance" to="5_s_exit" fromLane="1" toLane="1"/>
+    <connection from="5_n_entrance" to="5_w_exit" fromLane="0" toLane="0"/>
+
+    <connection from="5_e_entrance_1" to="5_s_exit" fromLane="3" toLane="3"/>
+    <connection from="5_e_entrance_1" to="5_w_exit" fromLane="2" toLane="2"/>
+    <connection from="5_e_entrance_1" to="5_w_exit" fromLane="1" toLane="1"/>
+    <connection from="5_e_entrance_1" to="5_n_exit" fromLane="0" toLane="0"/>
+
+    <connection from="5_s_entrance" to="5_w_exit" fromLane="3" toLane="2"/>
+    <connection from="5_s_entrance" to="5_n_exit" fromLane="2" toLane="2"/>
+    <connection from="5_s_entrance" to="5_n_exit" fromLane="1" toLane="1"/>
+    <connection from="5_s_entrance" to="5_n_exit" fromLane="0" toLane="0"/>
+    <connection from="5_s_entrance" to="5_e_exit" fromLane="0" toLane="0"/>
+
+    <connection from="5_w_entrance_1" to="5_n_exit" fromLane="3" toLane="3"/>
+    <connection from="5_w_entrance_1" to="5_e_exit" fromLane="2" toLane="1"/>
+    <connection from="5_w_entrance_1" to="5_e_exit" fromLane="1" toLane="0"/> <!--此处车道不平衡-->
+    <connection from="5_w_entrance_1" to="5_e_exit" fromLane="0" toLane="0"/> <!--此处车道不平衡-->
+    <connection from="5_w_entrance_1" to="5_s_exit" fromLane="0" toLane="0"/>
+
+</connections>
